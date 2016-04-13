@@ -1,16 +1,15 @@
 {
   "name": "twifo",
   "version": "1.0.0",
-  "description": "Get user information of a Twitter User.",
+  "description": "Get user information of a Twitter user",
   "license": "MIT",
-  "repository": "CodeDotJS/twifo",
-  "author": {
-    "name": "Rishi Giri",
-    "email": "rushforlinux@gmail.com",
-    "url": "rishigiri.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedotjs/twifo.git"
   },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
   "engines": {
-    "node": ">=4"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "xo && ava"
@@ -45,5 +44,10 @@
   "devDependencies": {
     "ava": "*",
     "xo": "*"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/codedotjs/twifo/issues"
+  },
+  "homepage": "https://github.com/codedotjs/twifo#readme",
+  "main": "index.js"
 }
