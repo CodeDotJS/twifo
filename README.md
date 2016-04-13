@@ -4,7 +4,7 @@
 </h1>
 
 
-<p align="center"><b>Get user information of a Twitter User</b></p>
+> Get user information of a Twitter User
 
 
 ## Install
@@ -47,7 +47,7 @@ twifo('pakalupapito').then(user => {
 
 ## Related
 
-Git-made    [ CLI TOOL ](https://github.com/CodeDotJS/git-made)
+Git-made [ CLI TOOL ](https://github.com/CodeDotJS/git-made)
 
 Git-gave [ CLI TOOL ](https://github.com/CodeDotJS/git-gave)
 
