@@ -1,9 +1,8 @@
-<!--
 <h1 align="center">
-  <a href="https://www.npmjs.com/package/instavim"><img src="http://rishigiri.com/github/twifo.png" alt="Instavim" width="400"></a>
+  <a href="https://www.npmjs.com/package/twifo"><img src="http://rishigiri.com/github/twifo.png" alt="twifo" width="400"></a>
   <br>
 </h1>
--->
+
 
 <p align="center"><b>Get user information of a Twitter User</b></p>
 
@@ -27,10 +26,9 @@ twifo('pakalupapito').then(user => {
 		handle: 'pakalupapito',
 		bio: 'started from gas station now we here',
 		tweet: '2,239',
-		followers: 'sindresorhus',
-		following: 'sindresorhus',
-		likes: 'likes',
-		joinDate: 'joinDate',
+		followers: '1.51M',
+		following: '174',
+		likes: '2,349'
 
 	}
 	*/
