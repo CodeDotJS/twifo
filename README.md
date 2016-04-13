@@ -35,7 +35,9 @@ twifo('pakalupapito').then(user => {
 });
 ```
 
-*Values will be `null` if they're not set in the twitter profile.*
+```
+Returns *null* if the value isn't found 
+```
 
 ## Screenshot
 
