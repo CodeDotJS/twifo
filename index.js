@@ -19,19 +19,18 @@ module.exports = function (username) {
 		return {
 			name: $('a.ProfileHeaderCard-nameLink').text() || null,
 
-			handle: $('.ProfileHeaderCard-screennameLink').attr('href') || null,
-
-			curryTweet: $('.js-tweet-text[1]').text() || null,
+			handle: $('.ProfileHeaderCard-screennameLink').attr('href').replace('/', '') || null,
 
 			bio: $('.ProfileHeaderCard-bio').text() || null,
 
-			tweets: $('.ProfileNav-value[0]').text() || null,
+			tweet: $('.ProfileNav-stat--link').text() || null,
 
-			followers: $('.ProfileNav-value[2]').text() || null,
+			following: $('.ProfileNav-stat--link').text() || null,
 
-			following: $('.ProfileNav-value[1]').text() || null,
+			followers: $('.ProfileNav-stat--link').text() || null,
 
-			likes: $('.ProfileNav-value[3]').text() || null
+			likes: $('.ProfileNav-stat--link').text() || null
+
 		};
 	}).catch(function (err) {
 		if (err.statusCode === 404) {
