@@ -23,13 +23,15 @@ module.exports = function (username) {
 
 			bio: $('.ProfileHeaderCard-bio').text() || null,
 
-			tweet: $('.ProfileNav-stat--link').text() || null,
+			joined: $('.ProfileHeaderCard-joinDateText').text().replace('Joined', '').replace(/ +/, '') || null,
 
-			following: $('.ProfileNav-stat--link').text() || null,
+			tweets: $('.ProfileNav-value').eq(0).text() || null,
 
-			followers: $('.ProfileNav-stat--link').text() || null,
+			following: $('.ProfileNav-value').eq(1).text() || null,
 
-			likes: $('.ProfileNav-stat--link').text() || null
+			followers: $('.ProfileNav-value').eq(2).text() || null,
+
+			likes: $('.ProfileNav-value').eq(3).text() || null
 
 		};
 	}).catch(function (err) {
