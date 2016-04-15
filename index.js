@@ -32,7 +32,6 @@ module.exports = function (username) {
 			followers: $('.ProfileNav-value').eq(2).text() || null,
 
 			likes: $('.ProfileNav-value').eq(3).text() || null
-
 		};
 	}).catch(function (err) {
 		if (err.statusCode === 404) {
