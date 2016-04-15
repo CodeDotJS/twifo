@@ -40,7 +40,7 @@ __NOTE__ : will be *null* if value isn't available.
 
 ## Related
 
-- [twifo-cli](https://github.com/CodeDotJS/twifo-cli) - CLI for this module
+- [npm-user](https://github.com/sindresorhus/npm-user) Similar module for npm.
 
 ## License
 
