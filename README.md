@@ -25,7 +25,7 @@ twifo('pakalupapito').then(user => {
 		name: 'pakalu papito',
 		handle: 'pakalupapito',
 		bio: 'started from gas station now we here',
-		tweet: '2,239',
+		tweet: '2,240',
 		followers: '1.51M',
 		following: '174',
 		likes: '2,349'
