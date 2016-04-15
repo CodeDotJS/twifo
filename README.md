@@ -5,6 +5,8 @@
 
 [![Build Status](https://travis-ci.org/CodeDotJS/twifo.svg?branch=master)](https://travis-ci.org/CodeDotJS/twifo)
 
+*Build will fail because the number of tweets isn't fixed, neither the number of followers or likes.*
+
 > Get user information of a Twitter User
 
 
