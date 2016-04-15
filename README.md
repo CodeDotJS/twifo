@@ -47,5 +47,3 @@ __NOTE__ : will be *null* if value isn't available.
 ## License
 
 MIT - Copyright &copy; [Rishi Giri](http://rishigiri.com)
-
-- Creadits : SS
