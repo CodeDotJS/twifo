@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-<center>[![Build Status](https://travis-ci.org/CodeDotJS/twifo.svg?branch=master)](https://travis-ci.org/CodeDotJS/twifo)</center>
+[![Build Status](https://travis-ci.org/CodeDotJS/twifo.svg?branch=master)](https://travis-ci.org/CodeDotJS/twifo)
 
 > Get user information of a Twitter User
 
@@ -36,14 +36,14 @@ twifo('pakalupapito').then(user => {
 });
 ```
 
-__NOTE__
+__NOTE__ : will be *null* if value isn't available.
 
-> If the required field will be empty, *null* will be returned.
+## Related
 
-```
-Idea : npm-user
-```
+- [twifo-cli](https://github.com/CodeDotJS/twifo-cli) - CLI for this module
 
 ## License
 
 MIT - Copyright &copy; [Rishi Giri](http://rishigiri.com)
+
+- Creadits : SS
