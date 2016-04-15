@@ -40,6 +40,8 @@ twifo('pakalupapito').then(user => {
 
 __NOTE__ : will be *null* if value isn't available.
 
+- Based on a module made by SS.
+
 ## License
 
 MIT - Copyright &copy; [Rishi Giri](http://rishigiri.com)
