@@ -40,10 +40,6 @@ twifo('pakalupapito').then(user => {
 
 __NOTE__ : will be *null* if value isn't available.
 
-## Related
-
-- [npm-user](https://github.com/sindresorhus/npm-user) Similar module for npm.
-
 ## License
 
 MIT - Copyright &copy; [Rishi Giri](http://rishigiri.com)
