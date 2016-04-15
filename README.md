@@ -35,23 +35,13 @@ twifo('pakalupapito').then(user => {
 });
 ```
 
+__NOTE__
+
+> If the required field will be empty, *null* will be returned.
+
 ```
-Returns *null* if the value isn't found 
+Idea : npm-user
 ```
-
-## Screenshot
-
-<!--
-<h1 align="center">
-  <img src="http://rishigiri.com/github/instashot.png" alt="Instavim" width=""></a>
-</h1>
--->
-
-## Related
-
-Git-made [ CLI TOOL ](https://github.com/CodeDotJS/git-made)
-
-Git-gave [ CLI TOOL ](https://github.com/CodeDotJS/git-gave)
 
 ## License
 
