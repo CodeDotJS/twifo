@@ -7,7 +7,7 @@ test(async t => {
 	t.is(user.name, 'pakalu papito');
 	t.is(user.handle, 'pakalupapito');
 	t.is(user.bio, 'started from gas station now we here.');
-	t.is(user.tweets, '2,242');
+	t.is(user.tweets, '2,244');
 	t.is(user.followers, '1.51M');
 	t.is(user.following, '174');
 	t.is(user.likes, '2,349');
