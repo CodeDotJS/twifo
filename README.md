@@ -40,8 +40,6 @@ twifo('pakalupapito').then(user => {
 
 __NOTE__ : will be *null* if value isn't available.
 
-- Based on a module made by SS.
-
 ## Related
 
 - [Twifo-Cli](https://github.com/CodeDotJS/twifo-cli) : CLI tool for this module.
